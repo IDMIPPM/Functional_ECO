@@ -1,0 +1,3 @@
+miter sch1.v sch2.v
+fraig
+write miter.v

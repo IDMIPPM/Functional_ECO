@@ -1,0 +1,70 @@
+GATE not1	1	O=!a;		        PIN * INV 1 999 1.0 0.2 1.0 0.2
+
+GATE buf1   1   O=a;		        PIN * INV 1 999 1.0 0.2 1.0 0.2
+
+GATE and2	1	O=(a*b);	   			    PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE and3	1	O=(a*b*c); 	    		    PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE and4 	1	O=(a*b*c*d);			    PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE and5 	1	O=(a*b*c*d*e);			    PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE and6 	1	O=(a*b*c*d*e*f);			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE and7	1	O=(a*b*c*d*e*f*g);			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE and8	1	O=(a*b*c*d*e*f*g*h);		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE and9	1	O=(a*b*c*d*e*f*g*h*i);		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE and10	1	O=(a*b*c*d*e*f*g*h*i*j);	PIN * INV 1 999 1.0 0.2 1.0 0.2
+
+
+GATE or2	1	O=(a+b);	      			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE or3	1	O=(a+b+c);	      	 		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE or4	1	O=(a+b+c+d);	  	 		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE or5	1	O=(a+b+c+d+e);	   			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE or6	1	O=(a+b+c+d+e+f);			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE or6	1	O=(a+b+c+d+e+f);			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE or7	1	O=(a+b+c+d+e+f+g);			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE or8	1	O=(a+b+c+d+e+f+g+h);		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE or9	1	O=(a+b+c+d+e+f+g+h+i);		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE or10	1	O=(a+b+c+d+e+f+g+h+i+j);	PIN * INV 1 999 1.0 0.2 1.0 0.2
+
+GATE nand2	1	O=!(a*b);	      			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nand3	1	O=!(a*b*c); 	  			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nand4 	1	O=!(a*b*c*d);	   			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nand5 	1	O=!(a*b*c*d*e);	   			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nand6 	1	O=!(a*b*c*d*e*f);			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nand7	1	O=!(a*b*c*d*e*f*g);			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nand8	1	O=!(a*b*c*d*e*f*g*h);		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nand9	1	O=!(a*b*c*d*e*f*g*h*i);		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nand10	1	O=!(a*b*c*d*e*f*g*h*i*j);	PIN * INV 1 999 1.0 0.2 1.0 0.2
+
+GATE nor2	1	O=!(a+b);	       			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nor3	1	O=!(a+b+c);	  			    PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nor4	1	O=!(a+b+c+d);			    PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nor5	1	O=!(a+b+c+d+e);			    PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nor6	1	O=!(a+b+c+d+e+f);			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nor7	1	O=!(a+b+c+d+e+f+g);			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nor8	1	O=!(a+b+c+d+e+f+g+h);		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nor9	1	O=!(a+b+c+d+e+f+g+h+i);		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE nor10	1	O=!(a+b+c+d+e+f+g+h+i+j);	PIN * INV 1 999 1.0 0.2 1.0 0.2
+
+
+GATE xor2	1	O=a^b;	    				PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xor3	1	O=a^b^c;	    			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xor4	1	O=a^b^c^d;	    			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xor5	1	O=a^b^c^d^e;	    		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xor6	1	O=a^b^c^d^e^f;	    		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xor7	1	O=a^b^c^d^e^f^g;	 		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xor8	1	O=a^b^c^d^e^f^g^h;	 		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xor9	1	O=a^b^c^d^e^f^g^h^i;		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xor10	1	O=a^b^c^d^e^f^g^h^i^j;		PIN * INV 1 999 1.0 0.2 1.0 0.2
+
+GATE xnor2	1	O=!(a^b);	    			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xnor3	1	O=!(a^b^c);	    			PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xnor4	1	O=!(a^b^c^d);	    		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xnor5	1	O=!(a^b^c^d^e);	    		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xnor6	1	O=!(a^b^c^d^e^f);	    	PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xnor7	1	O=!(a^b^c^d^e^f^g);	 		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xnor8	1	O=!(a^b^c^d^e^f^g^h);	 	PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xnor9	1	O=!(a^b^c^d^e^f^g^h^i);		PIN * INV 1 999 1.0 0.2 1.0 0.2
+GATE xnor10	1	O=!(a^b^c^d^e^f^g^h^i^j);	PIN * INV 1 999 1.0 0.2 1.0 0.2
+
+
+GATE gnd	0	O=CONST0;
+GATE vcc	0	O=CONST1;
