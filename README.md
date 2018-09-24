@@ -31,3 +31,17 @@ cp abc ../equiv_check/linux/abc.exe
 ```
 
 **Note**: it's recommended to replace line "OPTFLAGS  ?= -g -O" in abc Makefile with "OPTFLAGS  ?= -g -O3" for faster code.
+
+# Citation
+
+If you find this useful for your research, please cite the following paper.
+
+```
+@inproceedings{stempkovskiy2018fast,
+  title={Fast and accurate resource-aware functional ECO patch generation tool},
+  author={Stempkovskiy, Alexander and Telpukhov, Dmitry and Soloviev, Roman},
+  booktitle={Electronic and Networking Technologies (MWENT), 2018 Moscow Workshop on},
+  pages={1--6},
+  year={2018},
+  organization={IEEE}
+}```
